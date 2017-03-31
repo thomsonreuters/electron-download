@@ -1,10 +1,10 @@
 {
-  "name": "electron-download",
+  "name": "tr-electron-download",
   "version": "4.1.0",
-  "description": "download electron prebuilt binary zips from github releases",
+  "description": "download tr-electron prebuilt binary zips from github releases",
   "main": "lib/index.js",
   "bin": {
-    "electron-download": "lib/cli.js"
+    "tr-electron-download": "lib/cli.js"
   },
   "scripts": {
     "lint": "eslint lib test",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-userland/electron-download.git"
+    "url": "git+https://github.com/thomsonreuters/electron-download.git"
   },
   "author": "max ogden",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/electron-userland/electron-download/issues"
   },
-  "homepage": "https://github.com/electron-userland/electron-download#readme",
+  "homepage": "https://github.com/thomsonreuters/electron-download#readme",
   "dependencies": {
     "debug": "^2.2.0",
     "env-paths": "^1.0.0",
