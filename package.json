@@ -1,6 +1,6 @@
 {
   "name": "electron-download",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "download electron prebuilt binary zips from github releases",
   "main": "lib/index.js",
   "bin": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/electron-userland/electron-download#readme",
   "dependencies": {
     "debug": "^2.2.0",
+    "env-paths": "^1.0.0",
     "fs-extra": "^2.0.0",
     "minimist": "^1.2.0",
     "nugget": "^2.0.0",
